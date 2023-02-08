@@ -18,44 +18,36 @@
   padding-right: 5%;
   padding-top: 3px;
   margin-bottom: 5px; }
-
-.enlace {
-  position: absolute; }
-
-.logo {
-  height: 150px;
-  width: 225px; }
-
-.menu {
-  border-radius: 15px;
-  font-family: 'Secular One', sans-serif;
-  float: right; }
-
-.menu li {
-  display: inline-block;
-  line-height: 135px;
-  margin: 0 5px; }
-
-.menu li a {
-  text-decoration: none;
-  color: white;
-  padding: 20px; }
-
-.menu li a:hover {
-  background: #470713;
-  border-radius: 15px;
-  padding-top: 5px;
-  padding-bottom: 5px; }
-
-.checkbtn {
-  float: right;
-  line-height: 140px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none; }
-
-#check {
-  display: none; }
+  .top .enlace {
+    position: absolute; }
+  .top .logo {
+    height: 150px;
+    width: 225px; }
+  .top .menu {
+    border-radius: 15px;
+    font-family: 'Secular One', sans-serif;
+    float: right; }
+    .top .menu li {
+      display: inline-block;
+      line-height: 135px;
+      margin: 0 5px; }
+      .top .menu li a {
+        text-decoration: none;
+        color: white;
+        padding: 20px; }
+        .top .menu li a:hover {
+          background: #470713;
+          border-radius: 15px;
+          padding-top: 5px;
+          padding-bottom: 5px; }
+  .top .checkbtn {
+    float: right;
+    line-height: 140px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none; }
+  .top #check {
+    display: none; }
 
 .titulo1 {
   font-family: 'Black Ops One';
@@ -74,34 +66,29 @@
   height: 600px;
   display: flex;
   flex-direction: column; }
-
-.titulo2 {
-  font-family: 'Secular One', sans-serif;
-  color: white;
-  text-shadow: 2px 2px black;
-  font-size: 40px;
-  text-align: center;
-  padding-top: 15px; }
-
-.mancuerna {
-  width: 450px; }
-
-.boton {
-  text-decoration: none;
-  font-family: 'Black Ops One';
-  font-size: 55px;
-  color: #c40303;
-  text-shadow: 3px 3px black;
-  text-align: center; }
-
-#b {
-  padding-top: 100px; }
-
-.boton:hover {
-  animation-name: pulse;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-  font-size: 60px; }
+  .fondo .titulo2 {
+    font-family: 'Secular One', sans-serif;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 15px; }
+  .fondo #b {
+    padding-top: 100px; }
+    .fondo #b .mancuerna {
+      width: 450px; }
+    .fondo #b .boton {
+      text-decoration: none;
+      font-family: 'Black Ops One';
+      font-size: 55px;
+      color: #c40303;
+      text-shadow: 3px 3px black;
+      text-align: center; }
+      .fondo #b .boton:hover {
+        animation-name: pulse;
+        animation-iteration-count: 1;
+        animation-duration: 1s;
+        font-size: 60px; }
 
 @keyframes pulse {
   0% {
@@ -121,12 +108,11 @@
   justify-content: center;
   position: relative;
   bottom: 0; }
+  .pie .foot {
+    padding-left: 10px;
+    padding-right: 10px; }
 
-.foot {
-  padding-left: 10px;
-  padding-right: 10px; }
-
-.titulo3 {
+nav .titulo3 {
   font-family: 'Black Ops One';
   border: solid black;
   color: black;
@@ -136,7 +122,7 @@
   background: radial-gradient(circle, #cf0000 50%, #020024 95%);
   margin: 0; }
 
-.texto1 {
+nav .texto1 {
   color: white;
   text-shadow: 2px 2px black;
   margin-left: 150px;
@@ -145,44 +131,57 @@
   margin-right: 150px;
   padding-top: 15px; }
 
-.subtitulo {
-  font-family: 'Black Ops One';
-  font-size: 35px;
-  color: #c40303;
-  text-align: center; }
-
-.texto2 {
-  color: white;
-  font-size: 15px;
-  font-family: 'Secular One', sans-serif;
-  text-align: justify; }
-
-.img1 {
-  height: 200px; }
-
 .espacio {
   padding-top: 75px; }
+  .espacio .subtitulo {
+    font-family: 'Black Ops One';
+    font-size: 35px;
+    color: #c40303;
+    text-align: center; }
+  .espacio .texto2 {
+    color: white;
+    font-size: 15px;
+    font-family: 'Secular One', sans-serif;
+    text-align: justify; }
+  .espacio .img1 {
+    height: 200px; }
 
 .bloque2 {
   display: flex;
   flex-direction: row-reverse;
   padding-right: 125px;
   padding-top: 50px; }
+  .bloque2 .subtitulo {
+    font-family: 'Black Ops One';
+    font-size: 35px;
+    color: #c40303;
+    text-align: center; }
+  .bloque2 .texto2 {
+    color: white;
+    font-size: 15px;
+    font-family: 'Secular One', sans-serif;
+    text-align: justify; }
+  .bloque2 .img1 {
+    height: 200px; }
 
 .bloque3 {
   padding-top: 50px;
   padding-bottom: 10px; }
+  .bloque3 .subtitulo {
+    font-family: 'Black Ops One';
+    font-size: 35px;
+    color: #c40303;
+    text-align: center; }
+  .bloque3 .texto2 {
+    color: white;
+    font-size: 15px;
+    font-family: 'Secular One', sans-serif;
+    text-align: justify; }
+  .bloque3 .img1 {
+    height: 200px; }
 
 @media screen and (max-width: 1200px) {
-  #b {
-    padding-top: 0; }
-  .mancuerna {
-    width: 400px; }
-  .fondo {
-    height: auto; }
-  .checkbtn {
-    display: block; }
-  .menu {
+  .top .menu {
     position: fixed;
     width: 50%;
     height: 100vh;
@@ -192,63 +191,79 @@
     left: -100%;
     text-align: center;
     transition: all 0.5s; }
-  .menu li {
-    display: block;
-    margin: 50px 0;
-    line-height: 30px; }
-  .menu li a {
-    font-size: 20px; }
-  .menu li a:hover {
-    background: none;
-    color: #c71212; }
-  #check:checked ~ ul {
-    left: 0; } }
+    .top .menu li {
+      display: block;
+      margin: 50px 0;
+      line-height: 30px; }
+      .top .menu li a {
+        font-size: 20px; }
+        .top .menu li a:hover {
+          background: none;
+          color: #c71212; }
+  .top .checkbtn {
+    display: block; }
+  .top #check:checked ~ ul {
+    left: 0; }
+  .fondo {
+    height: auto; }
+    .fondo #b {
+      padding-top: 0; }
+      .fondo #b .mancuerna {
+        width: 400px; } }
 
 @media screen and (max-width: 1024px) {
   #b {
     padding-top: 0; }
-  .mancuerna {
-    width: 350px; } }
+    #b .mancuerna {
+      width: 350px; } }
 
 @media screen and (max-width: 767px) {
   .logo {
     height: 75px;
-    width: 112px;
-    margin-top: 35px;
-    margin-left: 20px; }
-  .subtitulo {
-    font-size: 25px; }
-  .texto2 {
-    font-size: 10px; }
-  .img1 {
-    height: 50px; }
-  #b {
-    padding-top: 0; }
-  .mancuerna {
-    width: 300px; }
-  .img1 {
-    height: 150px; }
-  .titulo3 {
-    font-size: 40px; }
-  .texto1 {
-    font-size: 10px;
-    margin-left: 50px;
-    margin-right: 50px; }
+    width: 112px; }
   .titulo1 {
     font-size: 50px; }
-  .titulo2 {
+  .fondo .titulo2 {
     font-size: 25px; }
-  .boton {
-    font-size: 30px; }
-  .boton:hover {
-    animation-name: pulse;
-    animation-iteration-count: 1;
-    animation-duration: 1s;
-    font-size: 35px; }
+  .fondo #b {
+    padding-top: 0; }
+    .fondo #b .mancuerna {
+      width: 300px; }
+    .fondo #b .boton {
+      font-size: 30px; }
+      .fondo #b .boton:hover {
+        animation-name: pulse;
+        animation-iteration-count: 1;
+        animation-duration: 1s;
+        font-size: 35px; }
   @keyframes pulse {
     0% {
       font-size: 30px; }
     50% {
       font-size: 40px; }
     100% {
-      font-size: 35px; } } }
+      font-size: 35px; } }
+  nav .titulo3 {
+    font-size: 40px; }
+  nav .texto1 {
+    font-size: 10px;
+    margin-left: 50px;
+    margin-right: 50px; }
+  .espacio .subtitulo {
+    font-size: 25px; }
+  .espacio .texto2 {
+    font-size: 10px; }
+  .espacio .img1 {
+    height: 150px; }
+  .bloque2 .subtitulo {
+    font-size: 25px; }
+  .bloque2 .texto2 {
+    font-size: 10px; }
+  .bloque2 .img1 {
+    height: 150px; }
+  .bloque3 .subtitulo {
+    font-size: 25px; }
+  .bloque3 .texto2 {
+    font-size: 10px; }
+  .bloque3 .img1 {
+    height: 150px; } }
