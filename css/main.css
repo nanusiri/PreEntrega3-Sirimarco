@@ -1,3 +1,4 @@
+/*Variables*/
 * {
   padding: 0;
   margin: 0;
@@ -28,7 +29,7 @@ body {
     width: 225px; }
   .top .menu {
     border-radius: 15px;
-    font-family: 'Secular One', sans-serif;
+    font-family: "Secular One", sans-serif;
     float: right; }
     .top .menu li {
       display: inline-block;
@@ -52,8 +53,8 @@ body {
   .top #check {
     display: none; }
 
-.titulo1 {
-  font-family: 'Black Ops One';
+.titulo1, nav .titulo3 {
+  font-family: "Black Ops One";
   border: solid black;
   color: black;
   text-align: center;
@@ -70,7 +71,7 @@ body {
   display: flex;
   flex-direction: column; }
   .fondo .titulo2 {
-    font-family: 'Secular One', sans-serif;
+    font-family: "Secular One", sans-serif;
     color: white;
     text-shadow: 2px 2px black;
     font-size: 40px;
@@ -82,7 +83,7 @@ body {
       width: 450px; }
     .fondo #b .boton {
       text-decoration: none;
-      font-family: 'Black Ops One';
+      font-family: "Black Ops One";
       font-size: 55px;
       color: #c40303;
       text-shadow: 3px 3px black;
@@ -114,36 +115,26 @@ body {
     padding-left: 10px;
     padding-right: 10px; }
 
-nav .titulo3 {
-  font-family: 'Black Ops One';
-  border: solid black;
-  color: black;
-  text-align: center;
-  font-size: 75px;
-  background: #cf0000;
-  background: radial-gradient(circle, #cf0000 50%, #020024 95%);
-  margin: 0; }
-
 nav .texto1, nav .description {
   color: white;
   text-shadow: 2px 2px black;
   margin-left: 150px;
   font-size: 20px;
-  font-family: 'Secular One', sans-serif;
+  font-family: "Secular One", sans-serif;
   margin-right: 150px;
   padding-top: 15px; }
 
 .espacio {
   padding-top: 75px; }
   .espacio .subtitulo {
-    font-family: 'Black Ops One';
+    font-family: "Black Ops One";
     font-size: 35px;
     color: #c40303;
     text-align: center; }
   .espacio .texto2 {
     color: white;
     font-size: 15px;
-    font-family: 'Secular One', sans-serif;
+    font-family: "Secular One", sans-serif;
     text-align: justify; }
   .espacio .img1 {
     height: 200px; }
@@ -154,14 +145,14 @@ nav .texto1, nav .description {
   padding-right: 125px;
   padding-top: 50px; }
   .bloque2 .subtitulo {
-    font-family: 'Black Ops One';
+    font-family: "Black Ops One";
     font-size: 35px;
     color: #c40303;
     text-align: center; }
   .bloque2 .texto2 {
     color: white;
     font-size: 15px;
-    font-family: 'Secular One', sans-serif;
+    font-family: "Secular One", sans-serif;
     text-align: justify; }
   .bloque2 .img1 {
     height: 200px; }
@@ -170,14 +161,14 @@ nav .texto1, nav .description {
   padding-top: 50px;
   padding-bottom: 10px; }
   .bloque3 .subtitulo {
-    font-family: 'Black Ops One';
+    font-family: "Black Ops One";
     font-size: 35px;
     color: #c40303;
     text-align: center; }
   .bloque3 .texto2 {
     color: white;
     font-size: 15px;
-    font-family: 'Secular One', sans-serif;
+    font-family: "Secular One", sans-serif;
     text-align: justify; }
   .bloque3 .img1 {
     height: 200px; }
@@ -202,7 +193,7 @@ nav .texto1, nav .description {
         font-size: 20px; }
         .top .menu li a:hover {
           background: none;
-          color: #c71212; }
+          color: #c40303; }
   .top .checkbtn {
     display: block; }
   .top #check:checked ~ ul {
@@ -224,7 +215,7 @@ nav .texto1, nav .description {
   .logo {
     height: 75px;
     width: 112px; }
-  .titulo1 {
+  .titulo1, nav .titulo3 {
     font-size: 50px; }
   .fondo .titulo2 {
     font-size: 25px; }
