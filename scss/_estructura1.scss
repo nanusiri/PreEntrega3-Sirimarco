@@ -6,8 +6,11 @@
     box-sizing: border-box;
 }
 
-.cuerpo{
-    background-color: black;
+body{
+    background-color: black !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .top{
@@ -121,8 +124,7 @@
     flex-direction: row;
     align-items: top;
     justify-content: center;
-    position: relative;
-    bottom: 0;
+    margin-top: auto;
     .foot{
         padding-left: 10px;
         padding-right: 10px;
@@ -225,6 +227,7 @@ nav{
             left: -100%;
             text-align: center;
             transition: all 0.5s;
+            z-index: 1;
             li{
                 display: block;
                 margin: 50px 0;
