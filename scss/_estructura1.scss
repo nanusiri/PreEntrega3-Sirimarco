@@ -159,64 +159,36 @@ nav{
 
 .espacio{
     padding-top: 75px;
-    .subtitulo{
-        font-family: $principal-font;
-        font-size: 35px;
-        color: $subtitle-color;
-        text-align: center;
-    }
-    .texto2{
-        color: $text-color;
-        font-size: 15px;
-        font-family: $text-font;
-        text-align: justify;
-    }
-    .img1{
-        height: 200px;
-    }
 }
-
 
 .bloque2{
     display: flex;
     flex-direction: row-reverse;
     padding-right: 125px;
     padding-top: 50px;
-    .subtitulo{
-        font-family: $principal-font;
-        font-size: 35px;
-        color: $subtitle-color;
-        text-align: center;
-    }
-    .texto2{
-        color: $text-color;
-        font-size: 15px;
-        font-family: $text-font;
-        text-align: justify;
-    }
-    .img1{
-        height: 200px;
-    }
+}
+
+.subtitulo{
+    font-family: $principal-font;
+    font-size: 35px;
+    color: $subtitle-color;
+    text-align: center;
+}
+
+.texto2{
+    color: $text-color;
+    font-size: 15px;
+    font-family: $text-font;
+    text-align: justify;
+}
+
+.img1{
+    height: 200px;
 }
 
 .bloque3{
     padding-top: 50px;
     padding-bottom: 10px;
-    .subtitulo{
-        font-family: $principal-font;
-        font-size: 35px;
-        color: $subtitle-color;
-        text-align: center;
-    }
-    .texto2{
-        color: $text-color;
-        font-size: 15px;
-        font-family: $text-font;
-        text-align: justify;
-    }
-    .img1{
-        height: 200px;
-    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -316,37 +288,13 @@ nav{
             margin-right: 50px;
         }
     }
-    .espacio{
-        .subtitulo{
-            font-size: 25px;
-        }
-        .texto2{
-            font-size: 10px;
-        }
-        .img1{
-            height: 150px;
-        }
+    .subtitulo{
+        font-size: 25px;
     }
-    .bloque2{
-        .subtitulo{
-            font-size: 25px;
-        }
-        .texto2{
-            font-size: 10px;
-        }
-        .img1{
-            height: 150px;
-        }
+    .texto2{
+        font-size: 10px;
     }
-    .bloque3{
-        .subtitulo{
-            font-size: 25px;
-        }
-        .texto2{
-            font-size: 10px;
-        }
-        .img1{
-            height: 150px;
-        }
+    .img1{
+        height: 150px;
     }
 }

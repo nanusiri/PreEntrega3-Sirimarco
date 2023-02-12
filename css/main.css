@@ -126,52 +126,31 @@ nav .texto1, nav .description {
 
 .espacio {
   padding-top: 75px; }
-  .espacio .subtitulo {
-    font-family: "Black Ops One";
-    font-size: 35px;
-    color: #c40303;
-    text-align: center; }
-  .espacio .texto2 {
-    color: white;
-    font-size: 15px;
-    font-family: "Secular One", sans-serif;
-    text-align: justify; }
-  .espacio .img1 {
-    height: 200px; }
 
 .bloque2 {
   display: flex;
   flex-direction: row-reverse;
   padding-right: 125px;
   padding-top: 50px; }
-  .bloque2 .subtitulo {
-    font-family: "Black Ops One";
-    font-size: 35px;
-    color: #c40303;
-    text-align: center; }
-  .bloque2 .texto2 {
-    color: white;
-    font-size: 15px;
-    font-family: "Secular One", sans-serif;
-    text-align: justify; }
-  .bloque2 .img1 {
-    height: 200px; }
+
+.subtitulo {
+  font-family: "Black Ops One";
+  font-size: 35px;
+  color: #c40303;
+  text-align: center; }
+
+.texto2 {
+  color: white;
+  font-size: 15px;
+  font-family: "Secular One", sans-serif;
+  text-align: justify; }
+
+.img1 {
+  height: 200px; }
 
 .bloque3 {
   padding-top: 50px;
   padding-bottom: 10px; }
-  .bloque3 .subtitulo {
-    font-family: "Black Ops One";
-    font-size: 35px;
-    color: #c40303;
-    text-align: center; }
-  .bloque3 .texto2 {
-    color: white;
-    font-size: 15px;
-    font-family: "Secular One", sans-serif;
-    text-align: justify; }
-  .bloque3 .img1 {
-    height: 200px; }
 
 @media screen and (max-width: 1200px) {
   .top .menu {
@@ -243,23 +222,11 @@ nav .texto1, nav .description {
     font-size: 10px;
     margin-left: 50px;
     margin-right: 50px; }
-  .espacio .subtitulo {
+  .subtitulo {
     font-size: 25px; }
-  .espacio .texto2 {
+  .texto2 {
     font-size: 10px; }
-  .espacio .img1 {
-    height: 150px; }
-  .bloque2 .subtitulo {
-    font-size: 25px; }
-  .bloque2 .texto2 {
-    font-size: 10px; }
-  .bloque2 .img1 {
-    height: 150px; }
-  .bloque3 .subtitulo {
-    font-size: 25px; }
-  .bloque3 .texto2 {
-    font-size: 10px; }
-  .bloque3 .img1 {
+  .img1 {
     height: 150px; } }
 
 .d-item {
@@ -271,3 +238,31 @@ nav .texto1, nav .description {
 
 .description {
   margin-top: 10px; }
+
+#opciones {
+  display: flex;
+  flex-direction: column; }
+
+#bajo {
+  margin-top: auto; }
+  #bajo .boton2 {
+    text-decoration: none;
+    color: #c40303;
+    font-family: "Secular One", sans-serif;
+    font-size: 15px;
+    padding: 5px 15px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    border: solid;
+    border-width: 1px;
+    border-color: white; }
+    #bajo .boton2:hover {
+      box-shadow: 0 0 10px #cf0000, 0 0 40px #cf0000, 0 0 80px #cf0000; }
+
+@media screen and (max-width: 767px) {
+  #opciones {
+    border-top: solid;
+    border-bottom: solid;
+    border-color: white;
+    border-width: 1px; } }
