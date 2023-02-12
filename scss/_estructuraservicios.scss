@@ -21,7 +21,16 @@
         box-shadow: 0 0 10px $background-titulos, 0 0 40px $background-titulos, 0 0 80px $background-titulos;
         }
     }
-}       
+} 
+
+.clemente{
+    height: 250px;
+}
+
+.subtitulo2{
+    @extend .subtitulo;
+    text-align: left;
+}
 
 @media screen and (max-width: 767px) {
     #opciones{

@@ -133,7 +133,7 @@ nav .texto1, nav .description {
   padding-right: 125px;
   padding-top: 50px; }
 
-.subtitulo {
+.subtitulo, .subtitulo2 {
   font-family: "Black Ops One";
   font-size: 35px;
   color: #c40303;
@@ -222,7 +222,7 @@ nav .texto1, nav .description {
     font-size: 10px;
     margin-left: 50px;
     margin-right: 50px; }
-  .subtitulo {
+  .subtitulo, .subtitulo2 {
     font-size: 25px; }
   .texto2 {
     font-size: 10px; }
@@ -259,6 +259,12 @@ nav .texto1, nav .description {
     border-color: white; }
     #bajo .boton2:hover {
       box-shadow: 0 0 10px #cf0000, 0 0 40px #cf0000, 0 0 80px #cf0000; }
+
+.clemente {
+  height: 250px; }
+
+.subtitulo2 {
+  text-align: left; }
 
 @media screen and (max-width: 767px) {
   #opciones {
