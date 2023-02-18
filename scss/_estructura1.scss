@@ -87,7 +87,8 @@ body{
 }
 
 .fondo{
-    background-image: url(../assets/img/fotoinicio.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),
+    url(../assets/img/fotoinicio.jpg);
     background-position-y: 50%;
     height: 600px;
     display: flex;
@@ -246,9 +247,13 @@ nav{
 }
 
 @media screen and (max-width: 767px) {
-    .logo{
-        height: 75px;
-        width: 112px;
+    .top{
+        .logo{
+            height: 80px;
+            width: 119px;
+            margin-top: 35px;
+            margin-left: 20px;
+        }
     }
     .titulo1{
         font-size: 50px;
