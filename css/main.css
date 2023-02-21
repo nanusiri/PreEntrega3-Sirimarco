@@ -154,7 +154,7 @@ nav .texto1, nav .description {
 
 @media screen and (max-width: 1200px) {
   .top .menu {
-    position: fixed;
+    position: absolute;
     width: 50%;
     height: 100vh;
     background: #470713;
@@ -169,7 +169,7 @@ nav .texto1, nav .description {
       margin: 50px 0;
       line-height: 30px; }
       .top .menu li a {
-        font-size: 20px; }
+        font-size: 18px; }
         .top .menu li a:hover {
           background: none;
           color: #c40303; }
